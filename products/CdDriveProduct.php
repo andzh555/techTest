@@ -2,7 +2,7 @@
 
 class CdDriveProduct extends BaseProduct
 {
-    private $capacity;  //properties set to private to follow encapsulation implementation
+    private $capacity; 
 
     public function __construct($arr, $db)
     {
