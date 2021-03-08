@@ -18,7 +18,7 @@ $product = '';
 switch ($_POST['data']['selectedType']) {
     case 1:
         $product = new CdDriveProduct($_POST,$db);
-        $errors = addInDatabase($product, $db);//doubling code now is in function
+        $errors = addInDatabase($product, $db);
         break;
     case 2:
         $product = new BookProduct($_POST,$db);
