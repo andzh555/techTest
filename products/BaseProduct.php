@@ -1,10 +1,10 @@
 <?php
 
-abstract class BaseProduct //switch to abstract class
+abstract class BaseProduct 
 {
     private $sku;
     private $name;
-    private $price; //All properties set to private and prepared getters to follow encapsulation implementation
+    private $price; 
 
     public function __construct($sku, $name, $price)
     {
