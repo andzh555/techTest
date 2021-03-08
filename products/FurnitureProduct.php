@@ -4,8 +4,7 @@ class FurnitureProduct extends BaseProduct
 {
     private $furnitureHeight;
     private $furnitureLength;
-    private $furnitureWidth; //All properties set to private to follow encapsulation implementation
-
+    private $furnitureWidth; 
     public function __construct($arr,$db)
     {
         parent::__construct(
