@@ -1,0 +1,6 @@
+#cd, #book, #furniture {
+    display: none;
+}
+#hidden {
+    display: block;
+}
