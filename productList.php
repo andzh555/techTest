@@ -76,7 +76,7 @@ $db->connectToDataBase();
         </form>
     </div>
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <p class="text-center">Scandiweb Test assigment</p>
+        <p class="text-center">Test assigment</p>
     </footer>
 </div>
 </body>
