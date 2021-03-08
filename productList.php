@@ -2,7 +2,7 @@
 
 include 'lib/ConnectDB.php';
 
-$db = new ConnectDB('localhost', 'root', 'root', 'scandi');
+$db = new ConnectDB();
 $db->connectToDataBase();
 ?>
 <!DOCTYPE html>
