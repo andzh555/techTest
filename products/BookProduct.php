@@ -2,7 +2,7 @@
 
 class BookProduct extends BaseProduct
 {
-    private $weight; //properties set to private to follow encapsulation implementation
+    private $weight;
 
     public function __construct($arr,$db)
     {
